@@ -1,7 +1,7 @@
 #include <stdio.h>
-int main(void)
+int main(void)i
 {
-char myStr[] = "Programming is like building a multilingual puzzle\n";
-puts(myStr);
+puts("\"Programming is like building a multilingual puzzle\"");
+
 return (0);
 }
