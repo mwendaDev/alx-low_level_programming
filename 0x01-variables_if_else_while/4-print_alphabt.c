@@ -9,10 +9,10 @@ char ch;
 ch = 'a';
 while (ch <= 'z')
 {
-if (ch == 'e' || 'q')
-continue;
 putchar(ch);
 ch++;
+if (ch == 'e' || 'q')
+continue;
 }
 putchar('\n');
 return (0);
