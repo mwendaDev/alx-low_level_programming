@@ -9,6 +9,7 @@ char ch;
 ch = 'a';
 do(ch <= 'z') {
 putchar(ch);
+ch++;
 } while (ch != 'q' || 'e');
 putchar('\n');
 return (0);
