@@ -10,7 +10,7 @@ ch = 'a';
 do {
 putchar(ch);
 ch++;
-} while (ch <= 'z' && (ch == 'q' || 'e');
+} while (ch < 'z' && (ch == 'q' || 'e'));
 putchar('\n');
 return (0);
 }
