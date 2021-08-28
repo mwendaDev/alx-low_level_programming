@@ -10,8 +10,7 @@ for (i = 0; i < 10; i++)
 {
 if ((i == 0) || (i % 10 + '0'))
 {
-putchar(('0') || (i % 10 + '0'));
-print(i);
+putchar(i);
 }
 }
 putchar('\n');
