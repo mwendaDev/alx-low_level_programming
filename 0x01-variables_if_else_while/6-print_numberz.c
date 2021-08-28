@@ -5,12 +5,12 @@
 */
 int main(void)
 {
-int i;
+long i;
 for (i = 0; i < 10; i++)
 {
-if ((i == 0) || (i"%10" + '0'))
+if ((i == 0) || (i%10 + '0'))
 {
-putchar(('0') || (i"%10" + '0'));
+putchar(('0') || (i%10 + '0'));
 }
 }
 putchar('\n');
