@@ -8,7 +8,7 @@ int main(void)
 int i;
 int j;
 for (i = 0; i < 9; i++)
-for (j = 1; j < 10; i++)
+for (j = 1; j < 10; j++)
 {
 {
 if ((i == j) || (j == i) || (i > j))
@@ -21,4 +21,4 @@ putchar(' ');
 }
 putchar('\n');
 return (0);
-} 
+}
