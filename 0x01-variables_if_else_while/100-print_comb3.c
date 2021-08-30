@@ -15,7 +15,7 @@ if ((i == j) || (j == i) || (i > j))
 continue;
 putchar(i % 10 + '0');
 putchar(j % 10 + '0');
-if (j == 9)
+if ((j == 9) && (i == 8))
 continue;
 putchar(',');
 putchar(' ');
