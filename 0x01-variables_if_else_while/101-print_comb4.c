@@ -14,7 +14,7 @@ for (k = 2; k < 10; k++)
 {
 {
 {
-if ((i == j) || (i == k) || (j == i) || (j == k) || (k == i) || (k == j))
+if ((i == j) || (i == k) || (j == i) || (j == k) || (k == i) || (k == j) || (i == j == k))
 if ((i > j) || (i > k) || (j > k))
 continue;
 putchar(i % 10 + '0');
