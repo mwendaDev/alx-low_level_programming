@@ -14,7 +14,7 @@ for (k = 2; k < 10; k++)
 {
 {
 {
-if ((i == j || k) || (j == k || i) || (k == j || i)) 
+if ((i == k) || (i == j) || (j == k)) 
 if ((i > j) || (i > k) || (j > k))
 continue;
 continue;
