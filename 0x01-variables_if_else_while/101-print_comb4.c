@@ -17,6 +17,7 @@ for (k = 2; k < 10; k++)
 if ((i == j || k) || (j == k || i) || (k == j || i)) 
 if ((i > j) || (i > k) || (j > k))
 continue;
+continue;
 putchar(i % 10 + '0');
 putchar(j % 10 + '0');
 putchar(k % 10 + '0');
