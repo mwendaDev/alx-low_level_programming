@@ -1,9 +1,9 @@
 #include "main.h"
 /**
 *print_alphabet - function to print alphabet
-*Return: if executed successfully
+*Return: 0 if executed successfully
 */
-void print_alphabet(void)
+void print_alphabet()
 {
 char c[26] = "a-z";
 int i;
