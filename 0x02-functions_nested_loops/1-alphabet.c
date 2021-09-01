@@ -3,7 +3,7 @@
 *print_alphabet - function to print alphabet
 *Return: 0 if executed successfully
 */
-print_alphabet(void)
+void print_alphabet(void)
 {
 for (c = 'a'; c <= 'z'; c++)
 {
