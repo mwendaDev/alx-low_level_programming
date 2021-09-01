@@ -11,7 +11,7 @@ for (i = 0; i <= 26; i++)
 {
 _putchar(c[i]);
 }
-putchar('\n');
+_putchar('\n');
 return;
 }
 
