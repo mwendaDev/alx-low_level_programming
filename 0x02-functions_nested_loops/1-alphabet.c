@@ -9,7 +9,7 @@ char c[26] = ['a'-'z'];
 int i;
 for (i = 0; i <= 26; i++)
 {
-_putchar(c);
+_putchar(c[i]);
 }
 _putchar('\n');
 }
