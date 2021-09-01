@@ -5,9 +5,9 @@
 */
 void print_alphabet(void)
 {
-char c[26] = "a-z";
+char c;
 int i;
-for (i = 0; i <= 26; i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 _putchar(c[i]);
 }
