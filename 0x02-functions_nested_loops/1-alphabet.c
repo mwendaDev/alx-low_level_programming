@@ -5,10 +5,7 @@
 */
 int main(void)
 {
-int i;
-for (i = 'a'; i <= 'z'; i++)
-{
-_putchar(print_alphabet[i]);
+_putchar(print_alphabet());
 }
 _putchar('\n');
 return (0);
