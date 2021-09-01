@@ -14,5 +14,5 @@ return (0);
 void print_alphabet(void)
 {
 for (c = 'a'; c <= 'z'; c++)
-return c; 
+return (0); 
 }
