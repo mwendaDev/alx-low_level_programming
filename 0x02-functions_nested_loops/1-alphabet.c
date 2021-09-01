@@ -5,14 +5,14 @@
 */
 int main(void)
 {
-char c;
-_putchar(c);
-}
+print_alphabet();
 _putchar('\n');
 return (0);
 }
 void print_alphabet(void)
 {
+char c;
 for (c = 'a'; c <= 'z'; c++)
+_putchar(c);
 return (0); 
 }
