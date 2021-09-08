@@ -4,7 +4,7 @@
 *@c: character to print
 *Return: on success 1
 */
-int _islower(int c);
+int _islower(int c)
 {
 int i;
 int c = 99;
