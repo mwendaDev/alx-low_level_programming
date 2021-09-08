@@ -11,7 +11,6 @@ for (i = 97; i <= 122; i++)
 {
 if (c == 99)
 return (1);
-else
-return (0);
 }
+return (0);
 }
