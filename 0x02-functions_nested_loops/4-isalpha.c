@@ -7,7 +7,6 @@
 int _isalpha(int c)
 {
 int i;
-int j;
 for (i = 65; i <= 122; i++)
 {
 if ((c == 67) || (c == 99) || (i == c))
