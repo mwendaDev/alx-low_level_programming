@@ -9,7 +9,7 @@ int _isalpha(int c)
 int i;
 int j;
 for (i = 97; i <= 122; i++)
-for (j = 65; j <= 90 ; j++)
+for (j = 65; j <= 90; j++)
 {
 {
 if ((c == 99) || (i == c))
@@ -18,5 +18,6 @@ return (1);
 return (1);
 }
 }
+return (0);
 return (0);
 }
