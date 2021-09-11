@@ -6,6 +6,7 @@
 */
 int _isalpha(int c)
 {
+int C;
 int i;
 int j;
 for (i = 97; i <= 122; i++)
