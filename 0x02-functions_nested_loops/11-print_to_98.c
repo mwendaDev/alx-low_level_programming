@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 *print_to_98 - function to print to 98
 *@n: origin number
