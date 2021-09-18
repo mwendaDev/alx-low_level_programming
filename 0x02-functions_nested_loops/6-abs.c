@@ -6,6 +6,7 @@
 */
 int _abs(int)
 {
+int int;
 if (int < 0)
 {
 return (-int);
