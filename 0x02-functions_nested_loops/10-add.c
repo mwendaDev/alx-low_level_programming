@@ -2,7 +2,7 @@
 /**
 *add - addition function
 *Return: on success sum
-*@int: numbers to add
+*@num1,num2: numbers to add 
 */
 int add(int num1, int num2)
 {
