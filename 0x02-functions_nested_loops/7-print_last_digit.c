@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 *print_last_digit - function to print
 *@n: digit to print
@@ -6,9 +7,7 @@
 int print_last_digit(int n)
 {
 n = n % 10;
-if (n == n % 10)
-{
 return (n);
 }
-return (n);
+return (1);
 }
