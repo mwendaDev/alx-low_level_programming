@@ -6,13 +6,13 @@
 */
 int _abs(int)
 {
-if (int >= 0)
+if (int < 0)
 {
-int = int;
+return (-int);
 }
 else
 {
-int = (-1) * int;
+return (int);
 }
 return (1);
 }
