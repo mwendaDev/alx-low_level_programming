@@ -21,7 +21,7 @@ return (0);
 }
 else
 {
-_putchar(45);
+_putchar(j);
 return (-1);
 }
 return (1);
