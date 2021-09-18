@@ -4,7 +4,7 @@
 *@n: the absolute value to print
 *Return: on success 1
 */
-int _abs(n)
+int _abs(int n)
 {
 int n;
 if (n < 0)
