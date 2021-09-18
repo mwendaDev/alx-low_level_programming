@@ -1,19 +1,19 @@
 #include "main.h"
 /**
 *_abs - function to find the absolute value
-*@int: the absolute value to print
+*@n: the absolute value to print
 *Return: on success 1
 */
-int _abs(int)
+int _abs(n)
 {
-int int;
-if (int < 0)
+int n;
+if (n < 0)
 {
-return (-int);
+return (-n);
 }
 else
 {
-return (int);
+return (n);
 }
 return (1);
 }
