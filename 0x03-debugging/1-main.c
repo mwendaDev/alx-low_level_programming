@@ -13,9 +13,9 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 
-while (i < 10) /*i++ increment missing*/
+while (i < 10)
 {
-putchar(i);
+putchar(i);/*++i missing*/
 }
 
 printf("Infinite loop avoided! \\o/\n");
