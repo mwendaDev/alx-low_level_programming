@@ -17,7 +17,7 @@ while (i < 10)
 {
 putchar(i);
 }
-/*increment missing*/
+/*i++ increment required*/
 printf("Infinite loop avoided! \\o/\n");
 
 return (0);
