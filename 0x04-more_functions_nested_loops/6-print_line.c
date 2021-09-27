@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 *print_line - func to ptint line
 *@n: number of characters to print
