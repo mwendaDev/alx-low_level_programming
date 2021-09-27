@@ -14,7 +14,7 @@ for (i = 65; i <= 90; i++)
 {
 if (c == i)
 return (1);
-else
+else if (c != i)
 return (0);
 }
 }
