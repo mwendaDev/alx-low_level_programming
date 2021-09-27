@@ -12,5 +12,3 @@ for (i = 1; i <= n; i++)
 if ((n != 0) || (n > 0))
 _putchar(k);
 }
-return (0);
-}
