@@ -9,7 +9,7 @@ char str[];
 *str = str;
 while (*str != '\0')
 {
-_putchar(*str);
+_putchar(char *str);
 str++;
 }
 return (0);
