@@ -9,4 +9,5 @@ for (str = 0; str < '\0'; str++)
 {
 _putchar(*str);
 }
+return (0);
 }
