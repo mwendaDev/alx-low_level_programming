@@ -5,9 +5,9 @@
 */
 void _puts(char *str)
 {
-for (*str = 0; *str < '\0'; *str++)
+int i
+for (i = 0; i < '\0'; i++)
 {
-_putchar(*str);
+_putchar(i[*str]);
 }
-return (0);
-}
+i}
